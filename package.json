@@ -8,7 +8,6 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "qs": "^6.10.1",
     "react": "^17.0.2",
@@ -22,14 +21,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky install",
     "json-server": "json-server __json_server_mock__/db.json --watch --port 3001"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-     // "prettier"
     ]
   },
   "browserslist": {
@@ -45,14 +42,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.2",
-    "json-server": "^0.17.0",
-    "lint-staged": "^11.2.3",
-    "prettier": "2.4.1",
-    "pretty-quick": "^3.1.1"
-  },
-  "lint-staged": {
-    "*.{js,css,md,ts, tsx}": "prettier --write"
+    "@types/qs": "^6.9.7",
+    "@types/react": "^17.0.30",
+    "json-server": "^0.17.0"
   }
 }
